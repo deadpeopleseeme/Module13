@@ -1,5 +1,4 @@
-﻿
-using System.Diagnostics;
+﻿using System.Linq;
 
 namespace Module13
 {
@@ -34,6 +33,7 @@ namespace Module13
                 TestLinkedList.AddLast(line);
             }
         }
+
 
         public ListsToTextReader(string path)
         {
