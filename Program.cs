@@ -23,8 +23,7 @@ namespace Module13
                 long linkedListSumElapsedTime = 0;
                 
                 Console.WriteLine($"Сначала измеряем время вставки для обычного List<>\n");
-
-                
+               
                 var timer = new Stopwatch();
                 timer.Start();
                 
@@ -103,17 +102,7 @@ namespace Module13
                 {
                     Console.WriteLine(str);
                 }
-
-
-                    
-                    
-
-
             }
         }
-
-        
-
-
     }
 }

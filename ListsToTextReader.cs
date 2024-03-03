@@ -34,7 +34,6 @@ namespace Module13
             }
         }
 
-
         public ListsToTextReader(string path)
         {
             PathToFile = path;
