@@ -9,6 +9,7 @@ namespace Module13
     {
         static void Main(string[] args)
         {
+            // 13.6.1
             ListsToTextReader myReader = new(path: "C:\\Users\\Eddy\\Desktop\\Text1.txt");
 
             if (myReader.IsPathOK)
